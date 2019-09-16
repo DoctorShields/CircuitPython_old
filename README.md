@@ -7,8 +7,7 @@ New year, new programming language, new IDE, and new hardware.  This assignment 
 ### Pictures
 I'm still trying to figure out if I like the Fritzing breadboard or the Fritzing schematic better, so here's both.
 
-<img src="media/led_fade_schem.png" width="392px"/>  
-<img src="media/led_fade_bb.png" width="300px" />
+<img src="media/led_fade_schem.png" width="392px"/><img src="media/led_fade_bb.png" width="300px" />
 
 ### Methodology/Lessons
 I completed this project by making a PWM object and varying the duty cycle.  PWM means Pulse Width Modulation.  A PWM signal is a square wave.  By varying the duty cycle (how often the pulse was up or down), I was able to vary the apparent brightness of the LED.  I made the PWM object like this: `led = pulseio.PWMOut(board.D3, duty_cycle=0, frequency=5000)` and then I changed the `duty_cycle` property.
