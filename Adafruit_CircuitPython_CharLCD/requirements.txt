@@ -1,4 +1,0 @@
-Adafruit-Blinka
-adafruit-circuitpython-74hc595
-adafruit-circuitpython-busdevice
-adafruit-circuitpython-mcp230xx
