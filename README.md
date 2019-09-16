@@ -16,9 +16,17 @@ From [this page](https://learn.adafruit.com/adafruit-metro-m0-express-designed-f
 
 There is NO PWM on: A0, A1, A5, FLASH_CS.
 #### Analog Out
-I also learned that the Metro M0 Express can do true analog, thanks to a DAC (digital to analog converter) on pin A0.
+I also learned that the Metro M0 Express can do true analog, thanks to a DAC (digital to analog converter) on pin A0.  I didn't use that though.
 
 ## CircuitPython Servo
+### Objective
+The goal of this assignment was to use CircuitPython to make a servo move, using capacitive touch.  Capacitive touch is cool because the Metro can detect when you're touching wires and you can use that as input.
+### Picture
+<img src="media/servo_with_touch_bb.png" width="400px"/>
+
+### Methodology/Lessons
+Just like in the last assignment, I used a PWM object.  In this case, the PWM object controlled the servo.  Using the [Adafruit motor library](https://github.com/adafruit/Adafruit_CircuitPython_Motor), I could just attach that PWM object to a servo and then send the servo angles like `myServo.angle = 90`.  Piece of cake. The touch part was pretty easy, too.  Just import the `touchio` library, make a touch object like `touchLeft = touchio.TouchIn(board.D2)` and then just get the value of that object, `touchLeft.value`.
+
 ## CircuitPython LCD
 ## CircuitPython Photointerrupters
 ## CircuitPython Distance Sensor
