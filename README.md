@@ -16,7 +16,7 @@ From [this page](https://learn.adafruit.com/adafruit-metro-m0-express-designed-f
 
 There is NO PWM on: A0, A1, A5, FLASH_CS.
 #### Analog Out
-I also learned that the Metro M0 Express can do true analog, thanks to a DAC (digital to analog converter) on pin A0.  I didn't use that though.
+I also learned that the Metro M0 Express can do true analog, thanks to a DAC (digital to analog converter) on pin A0.  You can use `analogio` to write a value between 0 and 65535 (2<sup>16</sup>-1) and that will correspond to a voltage between 0 and 3.3 V.  The DAC on the SAMD21 is a 10-bit output, from 0-3.3V, so that should get me a resolution of 0.0032 Volts.  Nice.  But, I didn't use that though.  I used PWM.
 
 ## CircuitPython Servo
 ### Objective
