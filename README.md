@@ -1,5 +1,6 @@
 # CircuitPython
-My CircuitPython assignments
+* [Hello CircuitPython](#Hello CircuitPython)
+* [CircuitPythong Servo](#CircuitPython Servo)
 
 ## Hello CircuitPython (and Metro and Mu)
 ### Objective
