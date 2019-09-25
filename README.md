@@ -1,6 +1,6 @@
 # CircuitPython
 * [Hello CircuitPython](#hello_circuitpython_and_metro_and_mu)
-* [CircuitPythong Servo](#circuitpython_servo)
+* [CircuitPython Servo](#circuitpython_servo)
 
 ## Hello CircuitPython (and Metro and Mu)
 ### Objective
