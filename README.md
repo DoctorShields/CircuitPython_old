@@ -2,6 +2,9 @@
 
 My CircuitPython assignments
 
+* [Hello CircuitPython](#hello_circuitpython_and_metro_and_mu)
+* [CircuitPython Servo](#circuitpython_servo)
+
 ## Hello CircuitPython (and Metro and Mu)
 
 ### Objective
