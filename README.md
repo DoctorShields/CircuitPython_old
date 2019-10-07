@@ -50,6 +50,11 @@ Just like in the last assignment, I used a PWM object.  In this case, the PWM ob
 ## CircuitPython Photointerrupters
 
 ## CircuitPython Distance Sensor
+Check out this clever function I wrote
+```python
+def constrain(n, minn, maxn):
+    return min(max(n, minn), maxn)
+```
 
 ## Classes, Objects, and Modules
 
