@@ -1,9 +1,5 @@
 {
     "python.pythonPath": "C:\\Users\\shieldm1\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
-    "python.analysis.disabled": [
-        "unresolved-import",
-        "undefined-variable"
-    ],
     "arduino.path": "C:/Program Files (x86)/Arduino",
     "arduino.commandPath": "arduino_debug.exe",
     "arduino.logLevel": "info",

@@ -1,5 +1,5 @@
-from digitalio import DigitalInOut, Direction  #pylint: disable=import-error
-import board                                   #pylint: disable=import-error
+from digitalio import DigitalInOut, Direction  
+import board                                   
 import time
 
 pin = 8
