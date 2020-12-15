@@ -4,6 +4,7 @@ import digitalio
 import time
 
 #led = digitalio.DigitalInOut(board.D1)
+# https://cnn.com
 led = digitalio.DigitalInOut(board.D13)
 
 # digital IO pins are inputs by default
